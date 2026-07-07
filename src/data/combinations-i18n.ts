@@ -1,0 +1,111 @@
+import { Locale } from '@/lib/i18n';
+
+/**
+ * Traduções dos textos de combinações entre cartas.
+ * Chave: "cardId-targetCardId"
+ */
+const combinationTexts: Record<Locale, Record<string, string>> = {
+  es: {}, // Usa original
+  en: {
+    '0-1': 'The start of a great project with all tools at hand. Maximum creative potential.',
+    '0-6': 'An important love decision requiring courage and a leap of faith.',
+    '1-2': 'Perfect balance between action and intuition. Hidden knowledge manifests in the material world.',
+    '1-11': 'Willpower applied with discipline. Assured success in any endeavor.',
+    '2-18': 'Maximum intuition. Dreams bring important messages. Period of great psychic perception.',
+    '2-3': 'The feminine in full power: intuition plus creativity. Fertility on all planes.',
+    '3-4': 'Powerful couple: material and emotional abundance. Success in family business.',
+    '3-9': 'Mature feminine wisdom. Period of productive introspection and deep creativity.',
+    '4-5': 'Spiritual and material authority in harmony. Master or guide with real power on both planes.',
+    '4-11': 'Justice and power combined. Favorable legal decisions, important contracts.',
+    '5-6': 'Decision between tradition and passion. Choice between what you should do and what you desire.',
+    '5-2': 'Deep esoteric knowledge. Union of institutional wisdom with personal intuition.',
+    '6-15': 'Intense passion that can be liberating or destructive. Obsessive love vs. free love.',
+    '6-21': 'Love as the culmination of the journey. Relationship that completes an important life cycle.',
+    '7-8': 'Inner strength channeled into outer action. Victory over oneself translating into worldly success.',
+    '7-10': 'A twist of fate propels your advance. Winds change in your favor. Unexpected opportunity.',
+    '8-11': 'Force at the service of justice. Truth imposed with power. Definitive resolution.',
+    '8-20': 'Final judgment, accounting. Past actions have inevitable consequences.',
+    '9-18': 'Deep inner journey. Illumination that comes after crossing the densest darkness.',
+    '9-19': 'The hermit\'s wisdom revealed in sunlight. Period of clarity after long search.',
+    '10-21': 'Cycle completing successfully. End of one stage and luminous beginning of another.',
+    '10-13': 'Inevitable transformation. A cycle ends drastically to make way for something new.',
+    '11-7': 'Victory assured by the combination of inner strength and decisive action.',
+    '11-14': 'Moderation and inner strength: perfect balance. Deep healing of body and soul.',
+    '12-13': 'Ego death after sacrifice. Profound transformation after a painful pause.',
+    '12-17': 'Hope appears after sacrifice. Surrender brings healing and renewal.',
+    '13-20': 'Total rebirth. After death comes judgment and with it, a new life.',
+    '13-0': 'End that is a new beginning. The death of the old self frees the inner Fool for a new journey.',
+    '14-19': 'Radiant harmony. Golden period of balance, health and happiness on all planes.',
+    '14-17': 'Hope and balance: deep soul healing. Period of recovery and inner peace.',
+    '15-6': 'Choice between true love and destructive passion. Temptation that tests the heart.',
+    '15-19': 'After facing darkness, light shines stronger. Liberation and renewal.',
+    '16-17': 'After destruction, hope. The star shines brighter over the ruins.',
+    '16-19': 'Crisis that leads to illumination. From destruction a new era of clarity is born.',
+    '17-18': 'Hope illuminates the fears of the night. Faith guiding through uncertainty.',
+    '17-21': 'Luminous culmination. Dreams come true. Period of fullness and realization.',
+    '18-19': 'From night to day: confusion dissipates with the clarity of the sun. Truth revealed.',
+    '18-2': 'Maximum intuition. Period of great psychic perception but also emotional vulnerability.',
+    '19-21': 'Perfect culmination. Total success, full realization, happy ending. The best possible combination.',
+    '19-0': 'Joy of new beginning. Luminous adventure, contagious optimism, happy journey.',
+    '20-21': 'Awakening leads to fullness. Mission accomplished, cycle completed with success.',
+    '20-13': 'Death and rebirth: complete transformation. New person emerges from the ashes of the past.',
+    '21-0': 'The cycle completes and a new one begins. The end is a new beginning. Spiral evolution.',
+    '21-10': 'The wheel of destiny stops at its highest point. Success of fulfilled destiny.',
+  },
+  pt: {
+    '0-1': 'O início de um grande projeto com todas as ferramentas à disposição. Potencial criativo máximo.',
+    '0-6': 'Uma decisão amorosa importante que requer coragem e um salto de fé.',
+    '1-2': 'Equilíbrio perfeito entre ação e intuição. O conhecimento oculto se manifesta no mundo material.',
+    '1-11': 'Força de vontade aplicada com disciplina. Sucesso garantido em qualquer empreendimento.',
+    '2-18': 'Intuição máxima. Sonhos trazem mensagens importantes. Período de grande percepção psíquica.',
+    '2-3': 'O feminino em pleno poder: intuição mais criatividade. Fertilidade em todos os planos.',
+    '3-4': 'Casal poderoso: abundância material e emocional. Sucesso em negócios familiares.',
+    '3-9': 'Sabedoria feminina madura. Período de introspecção produtiva e criatividade profunda.',
+    '4-5': 'Autoridade espiritual e material em harmonia. Mestre ou guia com poder real em ambos os planos.',
+    '4-11': 'Justiça e poder combinados. Decisões legais favoráveis, contratos importantes.',
+    '5-6': 'Decisão entre tradição e paixão. Escolha entre o que deve fazer e o que deseja.',
+    '5-2': 'Conhecimento esotérico profundo. União da sabedoria institucional com a intuição pessoal.',
+    '6-15': 'Paixão intensa que pode ser libertadora ou destrutiva. Amor obsessivo vs. amor livre.',
+    '6-21': 'O amor como culminação da jornada. Relacionamento que completa um ciclo vital importante.',
+    '7-8': 'Força interior canalizada em ação exterior. Vitória sobre si mesmo que se traduz em sucesso mundano.',
+    '7-10': 'Um giro do destino impulsiona seu avanço. Os ventos mudam a seu favor. Oportunidade inesperada.',
+    '8-11': 'A força a serviço da justiça. Verdade que se impõe com poder. Resolução definitiva.',
+    '8-20': 'Julgamento final, prestação de contas. Ações passadas têm consequências inevitáveis.',
+    '9-18': 'Viagem interior profunda. Iluminação que chega depois de atravessar a escuridão mais densa.',
+    '9-19': 'A sabedoria do eremita se revela à luz do sol. Período de clareza após longa busca.',
+    '10-21': 'Ciclo que se completa com sucesso. Final de uma etapa e começo luminoso de outra.',
+    '10-13': 'Transformação inevitável. Um ciclo termina drasticamente para dar lugar a algo novo.',
+    '11-7': 'Vitória garantida pela combinação de força interior e ação decidida.',
+    '11-14': 'Moderação e força interior: equilíbrio perfeito. Cura profunda do corpo e da alma.',
+    '12-13': 'Morte do ego após o sacrifício. Transformação profunda depois de uma pausa dolorosa.',
+    '12-17': 'A esperança aparece após o sacrifício. A rendição traz cura e renovação.',
+    '13-20': 'Renascimento total. Depois da morte vem o julgamento e com ele, uma nova vida.',
+    '13-0': 'Fim que é um novo começo. A morte do velho eu liberta o Louco interior para uma nova jornada.',
+    '14-19': 'Harmonia radiante. Período dourado de equilíbrio, saúde e felicidade em todos os planos.',
+    '14-17': 'Esperança e equilíbrio: cura profunda da alma. Período de recuperação e paz interior.',
+    '15-6': 'Escolha entre amor verdadeiro e paixão destrutiva. Tentação que põe à prova o coração.',
+    '15-19': 'Depois de enfrentar a escuridão, a luz brilha com mais força. Libertação e renovação.',
+    '16-17': 'Depois da destruição, a esperança. A estrela brilha mais forte sobre as ruínas.',
+    '16-19': 'Crise que leva à iluminação. Da destruição nasce uma nova era de clareza.',
+    '17-18': 'A esperança ilumina os medos da noite. Fé que guia através da incerteza.',
+    '17-21': 'Culminação luminosa. Sonhos se realizam. Período de plenitude e realização.',
+    '18-19': 'Da noite ao dia: a confusão se dissipa com a clareza do sol. Verdade revelada.',
+    '18-2': 'Intuição máxima. Período de grande percepção psíquica mas também de vulnerabilidade emocional.',
+    '19-21': 'Culminação perfeita. Sucesso total, realização plena, final feliz. A melhor combinação possível.',
+    '19-0': 'Alegria do novo começo. Aventura luminosa, otimismo contagiante, viagem feliz.',
+    '20-21': 'O despertar leva à plenitude. Missão cumprida, ciclo completado com sucesso.',
+    '20-13': 'Morte e renascimento: transformação completa. Nova pessoa emerge das cinzas do passado.',
+    '21-0': 'O ciclo se completa e um novo começa. O fim é um novo princípio. Evolução espiral.',
+    '21-10': 'A roda do destino se detém no ponto mais alto. Sucesso do destino cumprido.',
+  },
+};
+
+/**
+ * Retorna o texto de combinação traduzido.
+ * Se não houver tradução, retorna o texto original (espanhol).
+ */
+export function getCombinationText(cardId: number, targetCardId: number, originalText: string, locale: Locale): string {
+  if (locale === 'es') return originalText;
+  const key = `${cardId}-${targetCardId}`;
+  return combinationTexts[locale]?.[key] || originalText;
+}

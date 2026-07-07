@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="#05031A" stroke="url(#gold-border)" stroke-width="2"/>
+  
+  <!-- Inner glow -->
+  <circle cx="60" cy="60" r="45" fill="url(#inner-glow)" opacity="0.3"/>
+  
+  <!-- Star burst (8 points) -->
+  <path d="M60 12 L63 48 L96 38 L72 57 L100 68 L66 66 L76 100 L60 72 L44 100 L54 66 L20 68 L48 57 L24 38 L57 48 Z" 
+        fill="url(#star-gold)" opacity="0.15"/>
+  
+  <!-- Central card shape -->
+  <rect x="42" y="28" width="36" height="58" rx="4" fill="#1B0F3E" stroke="url(#gold-border)" stroke-width="1.5"/>
+  
+  <!-- Card inner border -->
+  <rect x="45" y="31" width="30" height="52" rx="3" fill="none" stroke="#E8B852" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Eye of providence / mystical eye -->
+  <ellipse cx="60" cy="52" rx="10" ry="7" fill="none" stroke="#E8B852" stroke-width="1.2"/>
+  <circle cx="60" cy="52" r="3.5" fill="#E8B852"/>
+  <circle cx="60" cy="52" r="1.5" fill="#05031A"/>
+  
+  <!-- Rays from eye -->
+  <line x1="60" y1="42" x2="60" y2="37" stroke="#E8B852" stroke-width="0.7" opacity="0.6"/>
+  <line x1="54" y1="44" x2="52" y2="40" stroke="#E8B852" stroke-width="0.7" opacity="0.6"/>
+  <line x1="66" y1="44" x2="68" y2="40" stroke="#E8B852" stroke-width="0.7" opacity="0.6"/>
+  
+  <!-- Moon crescent at top of card -->
+  <path d="M56 35 A4 4 0 0 1 64 35 A5 5 0 0 0 56 35" fill="#E8B852" opacity="0.7"/>
+  
+  <!-- Stars on card -->
+  <circle cx="48" cy="75" r="1" fill="#F4D78A"/>
+  <circle cx="72" cy="75" r="1" fill="#F4D78A"/>
+  <circle cx="60" cy="78" r="1.2" fill="#F4D78A"/>
+  
+  <!-- Bottom decorative element -->
+  <path d="M50 70 Q55 66 60 70 Q65 66 70 70" fill="none" stroke="#E8B852" stroke-width="0.8" opacity="0.5"/>
+  
+  <!-- Outer decorative dots -->
+  <circle cx="60" cy="8" r="1.5" fill="#F4D78A" opacity="0.8"/>
+  <circle cx="60" cy="112" r="1.5" fill="#F4D78A" opacity="0.8"/>
+  <circle cx="8" cy="60" r="1.5" fill="#F4D78A" opacity="0.8"/>
+  <circle cx="112" cy="60" r="1.5" fill="#F4D78A" opacity="0.8"/>
+  
+  <!-- Corner stars -->
+  <path d="M20 20 l1.5 4 l4 1.5 l-4 1.5 l-1.5 4 l-1.5-4 l-4-1.5 l4-1.5z" fill="#F4D78A" opacity="0.5"/>
+  <path d="M100 20 l1.5 4 l4 1.5 l-4 1.5 l-1.5 4 l-1.5-4 l-4-1.5 l4-1.5z" fill="#F4D78A" opacity="0.5"/>
+  <path d="M20 100 l1.5 4 l4 1.5 l-4 1.5 l-1.5 4 l-1.5-4 l-4-1.5 l4-1.5z" fill="#F4D78A" opacity="0.5"/>
+  <path d="M100 100 l1.5 4 l4 1.5 l-4 1.5 l-1.5 4 l-1.5-4 l-4-1.5 l4-1.5z" fill="#F4D78A" opacity="0.5"/>
+  
+  <!-- Text arc "TU SUERTE" -->
+  <defs>
+    <path id="top-arc" d="M25 60 A35 35 0 0 1 95 60"/>
+    <path id="bottom-arc" d="M30 68 A32 32 0 0 0 90 68"/>
+    <linearGradient id="gold-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A57E2E"/>
+      <stop offset="50%" stop-color="#F4D78A"/>
+      <stop offset="100%" stop-color="#A57E2E"/>
+    </linearGradient>
+    <radialGradient id="inner-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5430A8"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <linearGradient id="star-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8B852"/>
+      <stop offset="100%" stop-color="#A57E2E"/>
+    </linearGradient>
+  </defs>
+  
+  <text font-family="Georgia, serif" font-size="8" fill="#F4D78A" letter-spacing="3" font-weight="bold">
+    <textPath href="#top-arc" startOffset="18%">TU SUERTE</textPath>
+  </text>
+  <text font-family="Georgia, serif" font-size="7.5" fill="#F4D78A" letter-spacing="2.5" font-weight="bold">
+    <textPath href="#bottom-arc" startOffset="25%">TAROT</textPath>
+  </text>
+</svg>
